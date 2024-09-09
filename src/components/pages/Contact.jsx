@@ -10,9 +10,7 @@ function Contact() {
     <p style={{marginTop:'20px'}}>Tel: 876-537-6457</p>
     <p style={{marginTop:'20px'}}>Email: soulvoiceministries@gmail.com</p>
   </div>
-  <div className="contactForm" style={{backgroundColor:'white', width:'400px', height:'300px'}}>
-iuhdjcpadicha
-  </div>
+ 
 </div>
       </div>
     </div>
