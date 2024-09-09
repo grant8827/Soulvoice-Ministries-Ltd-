@@ -1,0 +1,101 @@
+/*topheader styles*/
+.tophead{
+    width: 100%;
+height: 50px;
+background-color:brown;
+color: white;
+
+}
+.topNavbar{
+    display:flex; 
+    margin:15px;
+}
+.topNavbar li{
+margin-left: 30px;
+list-style: none;
+}
+.tophead li a:hover{
+    color: rgb(215, 141, 43);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tophead li a{
+    color: white;
+    text-decoration: none;
+}
+/*middle header styles*/
+.middleHead{
+    width: 100%;
+    justify-content: center;
+     height:200px;
+     background-color: antiquewhite;
+}
+/*navbar links*/
+.navBarLinks{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(215, 141, 43);
+
+
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.navLinks li{
+margin-left:80px;  
+text-align: center; 
+margin-top: 15px; 
+color: white;
+font-size: 18px;
+}
+.navLinks li a:hover{
+    color: brown;
+    cursor: pointer;
+text-decoration: underline;
+    }
+    .navLinks li a{
+        color: white;
+        text-decoration: none;
+    }
+    .navMenuBar{
+        display: none;
+        background-color:transparent; 
+        border:none;
+    }
+    /*middle top*/
+    .socialIcons{
+        display: flex;
+    }
+
+    .navbarIcons{
+        margin-right:8px;
+         color:rgb(215, 141, 43);
+    }
+
+
+    @media only screen and (max-width: 900px) {
+        /*nav bar*/
+       .navLinks li{
+display: none;
+       }
+       .navMenuBar{
+        display: block; 
+    }
+    .middleHeadItem{
+       flex-direction: column;
+    }
+
+    /*middle header*/
+    .socialIcons{
+        display: none;
+    }
+/* topnav*/
+.topNavbar{
+    display:none; 
+}
+        }

@@ -1,0 +1,78 @@
+/*home page styles*/
+.homePageBody{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.homeMain{
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+.radioPlayer{
+    display:flex; 
+    justify-content:space-around;
+     margin-top:30px;
+}
+.ownerDetailbtn{
+    background-color:brown;
+     padding:10px;
+      margin:20px;
+       border-radius:10px;
+}
+/*all pages styles*/
+.pagesMain{
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.pagesContainer{
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .homeMain{
+        margin: 0;
+    }
+    .radioPlayer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+    }
+    .ownersDetails{
+        flex-direction: column-reverse;
+        align-items: center;
+           }
+           .ownersDetails{
+            margin: 20px;
+           }
+           .radioPlayerText{
+            margin: 20px;
+           }
+           .pagesContainer{
+            margin: 10px;
+        
+        }
+        .contactInfo{
+            flex-direction: column;
+            align-items: center; 
+            justify-content: space-around;
+        }
+        .contactForm{
+            margin-top: 50px;
+        }
+        .servicesTopHead{
+            margin-top: 10px;
+        }
+}
