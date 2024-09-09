@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 function Contact() {
   return (
     <div className='pagesMain'>
@@ -7,8 +7,8 @@ function Contact() {
         <h3 style={{textDecoration:'underline', margin:'20px'}}>Contact</h3>
 <div className='contactInfo' style={{display:'flex', justifyContent:'space-around' }}>
   <div style={{width:'400px'}}>
-    <p style={{marginTop:'20px'}}>Tel: 876-537-6457</p>
-    <p style={{marginTop:'20px'}}>Email: soulvoiceministries@gmail.com</p>
+    <p style={{marginTop:'20px'}}><h4>Tel:</h4><Link to="tel:876-537-6457">876-537-6457</Link></p>
+    <p style={{marginTop:'20px',}}><h4>Email:</h4><Link to="mailto:soulvoiceministries@gmail.com">soulvoiceministries@gmail.com</Link> </p>
   </div>
  
 </div>
