@@ -1,6 +1,7 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
 }
 
 body {
@@ -9,5 +10,7 @@ body {
  overscroll-behavior: none;
  background-color: antiquewhite;
 }
+
+
 
 

@@ -9,13 +9,13 @@ function Home() {
     <div className='homePageBody'>
         <div className='homeMain'>
          <div className='radioPlayer'>
-           <div style={{width:'400px'}}>
+           <div className="radioPlayerText">
            <RadioPlayer/>
           </div>
 
-          <div className='radioPlayerText' style={{width:'400px', textAlign:'left'}}>
-            <h3 style={{marginBottom:'20px'}}>Soulvoice Ministries Radio</h3>
-            <p>24 hours per day 7 days per week non stop Gospel music & the word of God</p>
+          <div className='radioPlayerText' >
+            <h3 style={{marginBottom:'20px', marginLeft:'10PX'}}>Soulvoice Ministries Radio</h3>
+            <p style={{marginLeft:'10PX'}}>24 hours per day 7 days per week non stop Gospel music & the word of God</p>
           </div>
           </div> 
           <Bonner/>

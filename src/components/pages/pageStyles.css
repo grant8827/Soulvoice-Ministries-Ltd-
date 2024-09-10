@@ -36,6 +36,11 @@
     margin-right: 180px;
 
 }
+.radioPlayerText{
+    width:400px;
+     text-Align:left;
+     margin-left: 50px;
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -75,4 +80,9 @@
         .servicesTopHead{
             margin-top: 10px;
         }
+        .radioPlayerText{
+            width: 100%;
+            margin-left: 20px;
+        }
+        
 }

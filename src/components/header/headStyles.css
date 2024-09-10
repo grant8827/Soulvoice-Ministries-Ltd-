@@ -98,4 +98,17 @@ display: none;
 .topNavbar{
     display:none; 
 }
+
         }
+
+        @media only screen and (max-width: 500px) {
+            .middleHead{
+                width: auto;
+               
+            }
+            /*navbar links*/
+            .navBarLinks{
+                width: auto;
+            }
+            
+          }
