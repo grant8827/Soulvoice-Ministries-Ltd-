@@ -6,7 +6,7 @@ import ApostleKGordon from '../assets/images/ApostleKGordon.png';
 import Bonner from '../comps/homeComponents/Bonner';
 function Home() {
   return (
-    <div className='homePageBody'>
+    <div className='pagesMain'>
         <div className='homeMain'>
          <div className='radioPlayer'>
            <div className="radioPlayerText">
@@ -19,7 +19,7 @@ function Home() {
           </div>
           </div> 
           <Bonner/>
-          <div className="ownersDetails" style={{display:'flex', justifyContent:'space-around', marginTop:'50px', marginBottom:'80px'}}>
+          <div className="ownersDetails" style={{display:'flex', justifyContent:'space-around', marginTop:'50px',}}>
             <div style={{width:'400px', textAlign:'left', marginLeft:'20px'}}>
               <h3 style={{margin:'20px'}}>CEO : Apostle K. Gordon </h3>
               <p style={{margin:'20px', marginBottom:'30px' }}> Our aim is to spread the gospel of truth worldwide, we are a non denominational organisation.</p>
@@ -30,8 +30,8 @@ function Home() {
               <img style={{width:'250px'}} src={ApostleKGordon} title='Apostle K Gordon' alt='Apostle K Gordon'/>
             </div>
           </div>
-          
         </div>
+        
     </div>
   )
 }
