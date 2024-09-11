@@ -2,6 +2,7 @@
 .homePageBody{
     width: 100%;
     height: 100%;
+    overflow: hidden;
     justify-content: center;
 }
 .homeMain{
@@ -26,7 +27,7 @@
 /*all pages styles*/
 .pagesMain{
     width: 100%;
-    height: 900px;
+    height: 100%;
     justify-content: center;
     margin: auto;
     align-items: center;

@@ -1,10 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-body {
+html, body {
   margin: 0;
  padding: 0;
  overscroll-behavior: none;
