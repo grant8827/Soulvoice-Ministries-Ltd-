@@ -4,7 +4,7 @@ function RadioPlayer() {
   return (
     <div>
 
-<iframe width="100%" height="80" title='Soulvoice Ministries Radio' src="https://radioplayer.link/stream/index.php?autoplay=false&name= Soulvoice Ministries Radio&bgcolor=E8982F&textcolor=FFFFFF&v=real&stream=https://stream-153.zeno.fm/h3pb41qkclsuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJoM3BiNDFxa2Nsc3V2IiwiaG9zdCI6InN0cmVhbS0xNTMuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFVMUwzdTJvVHY2c3RkOUJCMWFzN0EiLCJpYXQiOjE3MjU3MzE1NzYsImV4cCI6MTcyNTczMTYzNn0.1J9RqSRG5Ja2y2kTWus4wn6ztrwpYyIIsBq9yxPEwW0" frameborder="0" scrolling="no" allow="autoplay;"></iframe> 
+ <audio controls="true" preload="none"><source src="https://stream-171.zeno.fm/spwupb70cf9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzcHd1cGI3MGNmOXV2IiwiaG9zdCI6InN0cmVhbS0xNzEuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkdOa1hiUlo4UlVLZldqQmlVaGJoSlEiLCJpYXQiOjE3Mjg3NDA1NzUsImV4cCI6MTcyODc0MDYzNX0.FnoA3fcCFHqkdgCed5ru0mvRxh4VrlmG_FZIHodw-d0/stream?type=.mp3" type="audio/mp3">Your browser does not support the audio element.</source></audio>
    </div>
   )
 }
